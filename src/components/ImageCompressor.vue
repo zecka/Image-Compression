@@ -79,8 +79,6 @@ export default {
     dropOptions: {
       url: "https://httpbin.org/post",
       autoProcessQueue: false,
-      thumbnailWidth: 100,
-      thumbnailHeight: 100,
       addRemoveLinks: true
     }
   }),
