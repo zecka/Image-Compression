@@ -1,0 +1,18 @@
+$primary: #56cbf9;
+$secondary: #424242;
+$accent: #82b1ff;
+$error: #ff5252;
+$info: #2196f3;
+$success: #4caf50;
+$warning: #ffc107;
+
+// the :export directive is the magic sauce for webpack
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  acccent: $accent;
+  error: $error;
+  info: $info;
+  sucess: $success;
+  warning: $warning;
+}
